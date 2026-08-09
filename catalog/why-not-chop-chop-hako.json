@@ -6,7 +6,7 @@
   "enhancement_author": "HAKO Labs",
   "ownership": "third-party",
   "license": "permission-required",
-  "status": "labs",
+  "status": "verified",
   "upstream": {
     "publisher": "CurseForge",
     "project_search_url": "https://www.curseforge.com/minecraft-bedrock/search?class=scripts&search=Why%20Not%20Chop%20Chop",
@@ -29,5 +29,13 @@
     "Tres toras colocadas sem folhas nao sao tratadas como arvore.",
     "Sem agachar, somente o bloco atingido quebra.",
     "Machado perto do limite respeita dano e quebra sem erro da Script API."
-  ]
+  ],
+  "verification": {
+    "verified_at": "2026-08-09T15:09:04.309076+00:00",
+    "platform": "PlayStation 4",
+    "server": "Bedrock Dedicated Server 1.26.43.1",
+    "minecraft_client": "1.26.40",
+    "contracts_passed": 4,
+    "artifact_sha256": "fe8ae4f30f21ad39d5b4f2af2904eb8a0d228187a2016ec88f47e4882d211e33"
+  }
 }

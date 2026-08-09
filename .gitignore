@@ -1,0 +1,5 @@
+dist/
+*.mcpack
+*.mcaddon
+*.zip
+__pycache__/

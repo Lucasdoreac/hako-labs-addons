@@ -1,0 +1,20 @@
+name: release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/validate_catalog.py
+      - run: python tools/build_hako_agent.py dist/hako-agent-1.0.1.mcpack
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/hako-agent-1.0.1.mcpack
+          generate_release_notes: true

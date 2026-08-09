@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "HAKO Agent",
+    "description": "Telemetria minima e consulta autenticada pelo console do BDS",
+    "uuid": "7a3c3b9f-9d6b-4f91-a2d8-3c6f4e5a1001",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 26, 40]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "7a3c3b9f-9d6b-4f91-a2d8-3c6f4e5a1002",
+      "version": [1, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {"module_name": "@minecraft/server", "version": "2.9.0"}
+  ]
+}

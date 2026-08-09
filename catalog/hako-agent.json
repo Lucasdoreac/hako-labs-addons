@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "slug": "hako-agent",
+  "name": "HAKO Agent",
+  "authors": ["HAKO Labs"],
+  "ownership": "hako-owned",
+  "license": "MIT",
+  "status": "labs",
+  "version": [1, 0, 1],
+  "minecraft_min_version": [1, 26, 40],
+  "distribution": {
+    "full_artifact_allowed": true,
+    "release_asset": "hako-agent-1.0.1.mcpack"
+  },
+  "validation": {
+    "deterministic_build": true,
+    "forbidden_capabilities": [
+      "@minecraft/server-net",
+      "@minecraft/server-admin",
+      "runCommand",
+      "dynamic-properties"
+    ],
+    "gameplay_required": true
+  }
+}

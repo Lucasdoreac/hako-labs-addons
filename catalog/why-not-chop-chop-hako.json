@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "slug": "why-not-chop-chop-hako",
+  "name": "[Why Not] Chop Chop — HAKO profile",
+  "authors": ["daniswastaken"],
+  "enhancement_author": "HAKO Labs",
+  "ownership": "third-party",
+  "license": "permission-required",
+  "status": "labs",
+  "upstream": {
+    "publisher": "CurseForge",
+    "project_search_url": "https://www.curseforge.com/minecraft-bedrock/search?class=scripts&search=Why%20Not%20Chop%20Chop",
+    "version": [1, 0, 2]
+  },
+  "distribution": {
+    "full_artifact_allowed": false,
+    "reason": "O arquivo recebido nao continha licenca explicita de modificacao e redistribuicao."
+  },
+  "reproducibility": {
+    "accepted_input_sha256": "4e7a7fbd2edbaa42b13bfd238dac39a3e933097316c68b2370c229597dca1272",
+    "local_output_sha256": "fe8ae4f30f21ad39d5b4f2af2904eb8a0d228187a2016ec88f47e4882d211e33",
+    "transformations": [
+      "script-durability-overflow",
+      "script-tree-structure-guard"
+    ]
+  },
+  "gameplay_contracts": [
+    "Agachado e com machado, uma arvore natural reta derruba somente o tronco vertical.",
+    "Tres toras colocadas sem folhas nao sao tratadas como arvore.",
+    "Sem agachar, somente o bloco atingido quebra.",
+    "Machado perto do limite respeita dano e quebra sem erro da Script API."
+  ]
+}

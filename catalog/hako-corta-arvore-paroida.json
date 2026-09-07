@@ -6,18 +6,22 @@
   "ownership": "hako-owned",
   "license": "MIT",
   "status": "labs",
-  "version": [1, 0, 0],
+  "version": [1, 0, 1],
   "minecraft_min_version": [1, 26, 30],
   "origin": {
     "kind": "clean-room-reimplementation",
-    "note": "Same tree-felling logic as hako-corta-arvore, same clean-room origin, plus one added effect: an AI-generated tree pain scream (not a real person's voice) plays the instant the tree falls. Ships as a behavior pack + a resource pack (custom sound), bundled as one .mcaddon."
+    "note": "Same tree-felling logic as hako-corta-arvore, plus one added effect: a scream plays the instant the tree falls. Ships as a behavior pack + a resource pack (custom sound), bundled as one .mcaddon."
+  },
+  "audio_provenance": {
+    "1.0.0": "AI-generated tree pain scream, not a real person's voice",
+    "1.0.1": "Clip from the user's own YouTube video/audio, used with their confirmed ownership"
   },
   "distribution": {
     "full_artifact_allowed": true,
     "release_asset": "HAKO-Corta-Arvore-Paroida.mcaddon"
   },
   "audio_asset": {
-    "source": "user-provided, AI-generated tree pain scream; not a real person's voice",
+    "source": "clip from the user's own YouTube video, used with their confirmed ownership",
     "file": "rp/sounds/hako/tree_scream.ogg",
     "sound_id": "hako.tree_scream"
   },

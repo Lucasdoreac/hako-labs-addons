@@ -6,7 +6,7 @@
   "ownership": "hako-owned",
   "license": "MIT",
   "status": "labs",
-  "version": [1, 0, 1],
+  "version": [1, 0, 2],
   "minecraft_min_version": [1, 26, 30],
   "origin": {
     "kind": "clean-room-reimplementation",
@@ -14,7 +14,8 @@
   },
   "audio_provenance": {
     "1.0.0": "AI-generated tree pain scream, not a real person's voice",
-    "1.0.1": "Clip from the user's own YouTube video/audio, used with their confirmed ownership"
+    "1.0.1": "Clip from the user's own YouTube video/audio, used with their confirmed ownership",
+    "1.0.2": "\"Jumpscare Scream\" by Breviceps, Freesound.org, CC0 (public domain, no attribution required): https://freesound.org/people/Breviceps/sounds/587354/"
   },
   "distribution": {
     "full_artifact_allowed": true,

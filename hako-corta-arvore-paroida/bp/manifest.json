@@ -5,7 +5,7 @@
 		"name": "HAKO Corta Arvore - Paroida",
 		"uuid": "5315049d-6e5e-4b6d-b351-a77250e02952",
 		"pack_scope": "world",
-		"version": [1, 0, 0],
+		"version": [1, 0, 2],
 		"min_engine_version": [1, 26, 30]
 	},
 	"modules": [
@@ -14,7 +14,7 @@
 			"language": "javascript",
 			"entry": "scripts/main.js",
 			"uuid": "4c5661c2-3434-41fc-81cc-80bb6406a3d5",
-			"version": [1, 0, 0]
+			"version": [1, 0, 2]
 		}
 	],
 	"dependencies": [
@@ -24,7 +24,7 @@
 		},
 		{
 			"uuid": "d6d5350e-7523-4396-85c3-c06550f88a9f",
-			"version": [1, 0, 0]
+			"version": [1, 0, 2]
 		}
 	],
 	"metadata": {

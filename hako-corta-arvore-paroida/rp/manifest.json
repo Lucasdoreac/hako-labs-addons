@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Efeitos sonoros para HAKO Corta Arvore (Paroida) - a arvore grita ao ser derrubada.",
+		"name": "HAKO Corta Arvore - Sons (Paroida)",
+		"uuid": "d6d5350e-7523-4396-85c3-c06550f88a9f",
+		"pack_scope": "world",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 26, 30]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "b51a8897-3a27-49bc-85c3-8f962b79dd53",
+			"version": [1, 0, 0]
+		}
+	]
+}

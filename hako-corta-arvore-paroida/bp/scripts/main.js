@@ -134,6 +134,8 @@ world.beforeEvents.playerBreakBlock.subscribe((event) => {
 	const logs = trunk.concat(collectBranchLogs(dimension, trunk));
 	event.cancel = true;
 	system.run(() => {
+		// Paroida: the tree screams the instant it starts to fall.
+		dimension.playSound("hako.tree_scream", event.block.location, { volume: 1, pitch: 1 });
 		for (const location of logs) {
 			dimension.runCommand(`setblock ${location.x} ${location.y} ${location.z} air destroy`);
 		}

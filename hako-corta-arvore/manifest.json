@@ -5,7 +5,7 @@
 		"name": "HAKO Corta Arvore",
 		"uuid": "e5e7a278-df8b-48a9-8131-e31a083616db",
 		"pack_scope": "world",
-		"version": [1, 0, 0],
+		"version": [1, 0, 4],
 		"min_engine_version": [1, 26, 30]
 	},
 	"modules": [
@@ -14,7 +14,7 @@
 			"language": "javascript",
 			"entry": "scripts/main.js",
 			"uuid": "2f5ff985-cd0a-4184-8078-719d9d9e7456",
-			"version": [1, 0, 0]
+			"version": [1, 0, 4]
 		}
 	],
 	"dependencies": [

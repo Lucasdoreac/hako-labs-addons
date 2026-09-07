@@ -5,8 +5,8 @@
   "authors": ["HAKO Labs"],
   "ownership": "hako-owned",
   "license": "MIT",
-  "status": "labs",
-  "version": [1, 0, 0],
+  "status": "verified",
+  "version": [1, 0, 4],
   "minecraft_min_version": [1, 26, 30],
   "origin": {
     "kind": "clean-room-reimplementation",
@@ -17,14 +17,16 @@
     "release_asset": "HAKO-Corta-Arvore.mcpack"
   },
   "gameplay_contracts": [
-    "Agachado e com ferramenta, uma arvore natural reta derruba somente o tronco vertical.",
+    "Agachado e com ferramenta, uma arvore natural reta derruba o tronco vertical inteiro.",
+    "Galhos diagonais (acacia, selva, carvalho-escuro) caem junto com o tronco, sem deixar pedacos flutuando.",
     "Tres toras colocadas sem folhas nao sao tratadas como arvore.",
     "Sem agachar, somente o bloco atingido quebra.",
-    "Ferramenta perto do limite de durabilidade respeita dano e quebra sem erro da Script API."
+    "Ferramenta perto do limite de durabilidade respeita dano e quebra sem erro da Script API.",
+    "Uma parede ou torre de madeira proxima a uma arvore real nao e derrubada junto."
   ],
   "validation": {
     "static_check": "passed (scripts/pack-tool.py check) - status review, no block-level findings",
-    "gameplay_verified": false,
-    "note": "Gameplay contracts above are carried over from the equivalent, already-verified algorithm in the why-not-chop-chop-hako patch (see that catalog entry); this standalone build has not yet been confirmed in a live game session."
+    "gameplay_verified": true,
+    "note": "Verified live on the HAKO Mac local server (Marvel Project world) across versions 1.0.0-1.0.4; 1.0.1 added diagonal branch felling, 1.0.2 fixed branches left floating mid-air by requiring only that some part of the branch touch a leaf rather than every step."
   }
 }

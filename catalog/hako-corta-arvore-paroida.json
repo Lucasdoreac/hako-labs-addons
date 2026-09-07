@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "slug": "hako-corta-arvore-paroida",
+  "name": "HAKO Corta Arvore - Paroida",
+  "authors": ["HAKO Labs"],
+  "ownership": "hako-owned",
+  "license": "MIT",
+  "status": "labs",
+  "version": [1, 0, 0],
+  "minecraft_min_version": [1, 26, 30],
+  "origin": {
+    "kind": "clean-room-reimplementation",
+    "note": "Same tree-felling logic as hako-corta-arvore, same clean-room origin, plus one added effect: an AI-generated tree pain scream (not a real person's voice) plays the instant the tree falls. Ships as a behavior pack + a resource pack (custom sound), bundled as one .mcaddon."
+  },
+  "distribution": {
+    "full_artifact_allowed": true,
+    "release_asset": "HAKO-Corta-Arvore-Paroida.mcaddon"
+  },
+  "audio_asset": {
+    "source": "user-provided, AI-generated tree pain scream; not a real person's voice",
+    "file": "rp/sounds/hako/tree_scream.ogg",
+    "sound_id": "hako.tree_scream"
+  },
+  "gameplay_contracts": [
+    "Todos os contratos de hako-corta-arvore (mesma logica de corte).",
+    "O som hako.tree_scream toca no local da arvore no instante em que ela cai.",
+    "Sem o pacote de recursos ativo, a arvore cai normalmente e apenas fica muda."
+  ],
+  "validation": {
+    "static_check": "passed (scripts/pack-tool.py check) - status review, no block-level findings, both packs recognised (behavior + resource)",
+    "gameplay_verified": false,
+    "note": "Tree-felling logic reuses the gameplay-verified hako-corta-arvore algorithm as-is; the added sound trigger has not yet been confirmed audible in a live session."
+  }
+}

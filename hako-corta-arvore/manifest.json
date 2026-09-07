@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Agachado, derrube a arvore inteira sem quebrar construcoes de madeira.",
+		"name": "HAKO Corta Arvore",
+		"uuid": "e5e7a278-df8b-48a9-8131-e31a083616db",
+		"pack_scope": "world",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 26, 30]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "2f5ff985-cd0a-4184-8078-719d9d9e7456",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.8.0"
+		}
+	],
+	"metadata": {
+		"product_type": "addon"
+	}
+}

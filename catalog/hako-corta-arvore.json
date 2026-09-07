@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "hako-corta-arvore",
+  "name": "HAKO Corta Arvore",
+  "authors": ["HAKO Labs"],
+  "ownership": "hako-owned",
+  "license": "MIT",
+  "status": "labs",
+  "version": [1, 0, 0],
+  "minecraft_min_version": [1, 26, 30],
+  "origin": {
+    "kind": "clean-room-reimplementation",
+    "note": "Written from scratch to reproduce publicly documented Minecraft tree-felling behaviour. Does not contain, derive from, or redistribute any third-party addon file. Inspired by the concept behind CurseForge's [Why Not] Chop Chop (author: daniswastaken), but shares no code with it."
+  },
+  "distribution": {
+    "full_artifact_allowed": true,
+    "release_asset": "HAKO-Corta-Arvore.mcpack"
+  },
+  "gameplay_contracts": [
+    "Agachado e com ferramenta, uma arvore natural reta derruba somente o tronco vertical.",
+    "Tres toras colocadas sem folhas nao sao tratadas como arvore.",
+    "Sem agachar, somente o bloco atingido quebra.",
+    "Ferramenta perto do limite de durabilidade respeita dano e quebra sem erro da Script API."
+  ],
+  "validation": {
+    "static_check": "passed (scripts/pack-tool.py check) - status review, no block-level findings",
+    "gameplay_verified": false,
+    "note": "Gameplay contracts above are carried over from the equivalent, already-verified algorithm in the why-not-chop-chop-hako patch (see that catalog entry); this standalone build has not yet been confirmed in a live game session."
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "hako:raiz_segmento",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"properties": {
+				"hako:core_id": {
+					"type": "string",
+					"client_sync": false,
+					"default": ""
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": { "family": ["hako_raiz", "monster"] },
+			"minecraft:health": { "value": 6, "max": 6 },
+			"minecraft:collision_box": { "width": 0.6, "height": 0.9 },
+			"minecraft:physics": {},
+			"minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": true },
+			"minecraft:knockback_resistance": { "value": 0.9 },
+			"minecraft:movement": { "value": 0.0 },
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": { "can_path_over_water": false, "avoid_water": true },
+			"minecraft:attack": { "damage": 2 },
+			"minecraft:behavior.melee_attack": { "priority": 1, "speed_multiplier": 1.0, "track_target": true },
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"entity_types": [
+					{
+						"filters": { "test": "is_family", "subject": "other", "value": "player" },
+						"max_dist": 6
+					}
+				]
+			}
+		}
+	}
+}

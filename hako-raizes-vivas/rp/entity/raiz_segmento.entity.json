@@ -1,0 +1,12 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hako:raiz_segmento",
+			"materials": { "default": "entity_alphatest" },
+			"textures": { "default": "textures/entity/raiz_segmento" },
+			"geometry": { "default": "geometry.hako_raiz_segmento" },
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

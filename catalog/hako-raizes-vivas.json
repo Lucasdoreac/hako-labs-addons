@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "slug": "hako-raizes-vivas",
+  "name": "HAKO Raizes Vivas",
+  "authors": ["HAKO Labs"],
+  "ownership": "hako-owned",
+  "license": "MIT",
+  "status": "labs",
+  "version": [1, 0, 0],
+  "minecraft_min_version": [1, 26, 30],
+  "origin": {
+    "kind": "original",
+    "note": "Original creature and mechanic: a root/tentacle segment that regrows two copies of itself when killed by anything except fire, spawned around a destructible core that stops all regrowth once destroyed. Inspired by the Hydra myth (public domain) and general genre conventions (stalker presence, escalating audio/visual cues) from horror media the user enjoys - no character designs, names, models, or code copied from any of it."
+  },
+  "distribution": {
+    "full_artifact_allowed": true,
+    "release_asset": "HAKO-Raizes-Vivas.mcaddon"
+  },
+  "audio_asset": {
+    "source": "reuses \"Jumpscare Scream\" by Breviceps, Freesound.org, CC0 - see hako-corta-arvore-paroida catalog entry",
+    "file": "rp/sounds/hako/raiz_glitch.ogg",
+    "sound_id": "hako.raiz_glitch"
+  },
+  "visual_assets": {
+    "geometry": "hand-written blocky placeholder geometry (cuboid bones only), not final art",
+    "textures": "procedurally generated placeholder textures (rp/textures/entity/*.png), not final art",
+    "note": "Functional but not visually polished. Intended to be reskinned with real art later."
+  },
+  "gameplay_contracts": [
+    "Summon hako:raiz_nucleo spawns a core plus an initial ring of 4 hako:raiz_segmento entities.",
+    "Killing a segment by any non-fire cause spawns 2 new segments near its death location, tagged to the same core.",
+    "Killing a segment by fire/lava/campfire ends it permanently - no regrowth.",
+    "If the core tied to a segment is already dead when that segment dies, no regrowth occurs even for a non-fire kill.",
+    "Destroying the core plays a distinct 'core defeated' cue and permanently stops all further regrowth for that cluster.",
+    "Each regrowth event triggers camera shake, a glitch actionbar title, and the glitch scream sound for nearby players."
+  ],
+  "validation": {
+    "static_check": "passed (scripts/pack-tool.py check) - status review, no block-level findings, both packs recognised (behavior + resource)",
+    "gameplay_verified": false,
+    "note": "Deployed to the HAKO Mac local server for testing (not yet played through in a live session by a human)."
+  }
+}

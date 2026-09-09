@@ -1,0 +1,33 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Raizes Vivas: cortar multiplica, so fogo mata de verdade. Nucleo destrutivel encerra o crescimento.",
+		"name": "HAKO Raizes Vivas",
+		"uuid": "222c7e4e-eaa9-4b4e-b375-9b27ca257cb6",
+		"pack_scope": "world",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 26, 30]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "d3571b9f-7ea2-4e19-89c1-645a502bbebc",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.8.0"
+		},
+		{
+			"uuid": "c2519fcd-3bde-44ae-b4a6-555523587267",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"product_type": "addon"
+	}
+}

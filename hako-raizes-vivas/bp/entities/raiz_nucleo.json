@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "hako:raiz_nucleo",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:type_family": { "family": ["hako_raiz_nucleo", "monster"] },
+			"minecraft:health": { "value": 24, "max": 24 },
+			"minecraft:collision_box": { "width": 1.0, "height": 1.3 },
+			"minecraft:physics": {},
+			"minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": true },
+			"minecraft:knockback_resistance": { "value": 1.0 },
+			"minecraft:movement": { "value": 0.0 },
+			"minecraft:movement.basic": {}
+		}
+	}
+}

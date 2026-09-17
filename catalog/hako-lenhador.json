@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "slug": "hako-lenhador",
+  "name": "HAKO Lenhador",
+  "authors": ["HAKO Labs"],
+  "ownership": "hako-owned",
+  "license": "MIT",
+  "status": "labs",
+  "version": [1, 1, 2],
+  "minecraft_min_version": [1, 26, 30],
+  "distribution": {
+    "full_artifact_allowed": true,
+    "release_asset": "HAKO-Lenhador-1.1.2.mcaddon"
+  },
+  "gameplay_contracts": [
+    "A marreta de madeira pode ser criada com pranchas de cada tipo de madeira, incluindo carvalho-palido.",
+    "As receitas de cada material mantem o mesmo formato de marreta e exigem uma bancada de trabalho."
+  ],
+  "validation": {
+    "static_check": "JSONs validados e arquivo mcaddon testado com unzip -t.",
+    "gameplay_verified": false,
+    "note": "A versao 1.1.2 substitui a receita generica minecraft:planks por doze receitas explicitas: madeiras do Overworld, bambu e madeiras do Nether."
+  }
+}

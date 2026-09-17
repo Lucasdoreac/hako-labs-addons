@@ -1,0 +1,30 @@
+{
+	"resource_pack_name": "hako_lenhador",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"marreta_madeira": {
+			"textures": "textures/items/marreta_madeira"
+		},
+		"marreta_pedra": {
+			"textures": "textures/items/marreta_pedra"
+		},
+		"marreta_cobre": {
+			"textures": "textures/items/marreta_cobre"
+		},
+		"marreta_ferro": {
+			"textures": "textures/items/marreta_ferro"
+		},
+		"marreta_ouro": {
+			"textures": "textures/items/marreta_ouro"
+		},
+		"marreta_diamante": {
+			"textures": "textures/items/marreta_diamante"
+		},
+		"marreta_netherite": {
+			"textures": "textures/items/marreta_netherite"
+		},
+		"brita": {
+			"textures": "textures/items/brita"
+		}
+	}
+}

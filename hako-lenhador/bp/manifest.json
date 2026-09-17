@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Qualquer item derruba a arvore inteira. Marreta e Brita derrubam tambem construcoes - a Brita na velocidade da mao.",
+		"name": "HAKO Lenhador",
+		"uuid": "0043351f-1cd1-4639-b2d8-9cbabf5cbfe7",
+		"pack_scope": "world",
+		"version": [
+			1,
+			1,
+			2
+		],
+		"min_engine_version": [
+			1,
+			26,
+			30
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "b14784af-ff7f-447d-b438-269e86c000c2",
+			"version": [
+				1,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.8.0"
+		},
+		{
+			"uuid": "72858140-fa65-4bb5-a3bf-f6fb4b22d69e",
+			"version": [
+				1,
+				1,
+				2
+			]
+		}
+	],
+	"metadata": {
+		"product_type": "addon"
+	}
+}

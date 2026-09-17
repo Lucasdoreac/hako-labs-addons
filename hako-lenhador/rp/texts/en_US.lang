@@ -1,0 +1,11 @@
+## HAKO Lenhador
+hako:itemGroup.name.marreta=Sledgehammers
+itemGroup.name.marreta=Sledgehammers
+item.hako:marreta_madeira=Wood Sledgehammer
+item.hako:marreta_pedra=Stone Sledgehammer
+item.hako:marreta_cobre=Copper Sledgehammer
+item.hako:marreta_ferro=Iron Sledgehammer
+item.hako:marreta_ouro=Gold Sledgehammer
+item.hako:marreta_diamante=Diamond Sledgehammer
+item.hako:marreta_netherite=Netherite Sledgehammer
+item.hako:brita=Gravel Piece

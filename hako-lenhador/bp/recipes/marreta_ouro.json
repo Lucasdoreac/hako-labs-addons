@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hako:marreta_ouro_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"unlock": [
+			{
+				"item": "minecraft:gold_ingot"
+			},
+			{
+				"item": "minecraft:stick"
+			}
+		],
+		"pattern": [
+			"XX ",
+			"XS ",
+			" X "
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:gold_ingot"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "hako:marreta_ouro"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+## HAKO Lenhador
+hako:itemGroup.name.marreta=Marretas
+itemGroup.name.marreta=Marretas
+item.hako:marreta_madeira=Marreta de Madeira
+item.hako:marreta_pedra=Marreta de Pedra
+item.hako:marreta_cobre=Marreta de Cobre
+item.hako:marreta_ferro=Marreta de Ferro
+item.hako:marreta_ouro=Marreta de Ouro
+item.hako:marreta_diamante=Marreta de Diamante
+item.hako:marreta_netherite=Marreta de Netherite
+item.hako:brita=Brita

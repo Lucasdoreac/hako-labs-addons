@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:crafting_items_catalog": {
+		"categories": [
+			{
+				"category_name": "equipment",
+				"groups": [
+					{
+						"group_identifier": {
+							"icon": "hako:marreta_ferro",
+							"name": "hako:itemGroup.name.marreta"
+						},
+						"items": [
+							"hako:marreta_madeira",
+							"hako:marreta_pedra",
+							"hako:marreta_cobre",
+							"hako:marreta_ferro",
+							"hako:marreta_ouro",
+							"hako:marreta_diamante",
+							"hako:marreta_netherite"
+						]
+					}
+				]
+			}
+		]
+	}
+}

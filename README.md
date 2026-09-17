@@ -5,6 +5,7 @@ Laboratorio publico de Add-Ons Bedrock analisados, reproduziveis e reversiveis.
 ## Downloads
 
 - **HAKO Agent**: Add-On proprio. O arquivo `.mcpack` fica em cada [GitHub Release](https://github.com/Lucasdoreac/hako-labs-addons/releases/latest).
+- **HAKO Lenhador**: Add-On proprio com derrubada de arvores e marretas. A receita da marreta de madeira aceita cada tipo de prancha, incluindo carvalho-palido.
 - **[Why Not] Chop Chop — HAKO profile**: aprimoramento reprodutivel do Add-On de
   `daniswastaken`. Como o pacote recebido nao inclui uma licenca de redistribuicao,
   este repositorio publica a receita, hashes e validacoes, mas nao republica o binario
